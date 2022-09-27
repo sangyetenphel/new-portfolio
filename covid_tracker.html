@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 Tracker</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+        h5 {
+            padding: 0;
+            margin: 7px 0px;
+        }
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/covid-tracker.png">
+		</div>
+		
+		<h3>Covid-19 Tracker</h3>
+
+		<p>I build this website during the COVID-19 pandemic in order to trace back someone who has been in contact with someone else having tested positive for COVID-19.
+		<br>
+		<br>
+		It uses AI algorithm to find the shortest path between two people. For this project I used the database of all the actors in Hollywood.
+		<br>
+		<br>
+		The result would display all the people that the person has been in contact with tracing back to the one tested positive for COVID-19 and the chances of getting COVID-19 himself.
+		<br>
+		<br>
+		It also fetches the live COVID-19 cases in the United States by using a web scraper to get the latest updates.
+		<br>
+		<br>
+		It also displays random COVID-19 facts everytime you visit the page.</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Django</li>
+			<li>- JavaScript</li>
+			<li>- Postgres</li>
+			<li>- Heroku</li>
+			<li>- Chart JS</li>
+			<li>- BeautifulSoup4</li>
+		</ul>
+        <br>
+
+
+		<h5>Dashboard with latest COVID-19 cases in the US.</h5>
+		<div class="img-container">
+			<img src="images/covid-tracker.png">
+		</div>
+
+		<h5>Search from a list of people in Hollywood.</h5>
+		<div class="img-container">
+			<img src="images/search_people.png">
+		</div>
+
+		<h5>Select the name of the person who you want to trace.</h5>
+		<div class="img-container">
+			<img src="images/search_person.png">
+		</div>
+
+		<h5>Result of the traceback with chances of contracting COVID-19.</h5>
+		<div class="img-container">
+			<img src="images/search_result.png">
+		</div>
+
+	</div>
+
+</body>
+</html>
